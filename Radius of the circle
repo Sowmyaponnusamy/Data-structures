@@ -1,3 +1,10 @@
+Radius of the circle:
+
 from math import pi
 r=float(input("Input the radius of the circle :"))
 print("The area of the circle with radius"+str(r)+" is:"+syr(pi* r**2))
+
+Filename program
+filename = input("Input the filename:abc.py")
+f_extns=filename.split("abc.py")
+print("The extension of the file is: python"+ repr(f_extns[-1]))
